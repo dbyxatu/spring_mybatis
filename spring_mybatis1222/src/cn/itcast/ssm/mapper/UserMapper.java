@@ -8,19 +8,16 @@ import cn.itcast.ssm.po.UserQueryVo;
 
 /**
  * 
- * <p>Title: UserMapper</p>
- * <p>Description: mapper接口，相当 于dao接口，用户管理</p>
- * <p>Company: www.itcast.com</p> 
- * @author	传智.燕青
- * @date	2015-4-22下午2:45:12
- * @version 1.0
+ * @ClassName: UserMapper
+ * @Description: mapper接口，相当 于dao接口，用户管理
+ *
+ * @version: v1.0.0
+ * @author dongby1
+ * @date 2020/01/16 09:55:58
  */
 public interface UserMapper {
-	
-	
-	//根据id查询用户信息
+
+	// 根据id查询用户信息
 	public User findUserById(int id) throws Exception;
-	
-		
 
 }
