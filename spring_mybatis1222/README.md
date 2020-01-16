@@ -30,3 +30,10 @@
 	1.开始Spring_mybatis;  
 	2.完成day-02:mybatis和spring整合-原始dao开发;  
 	3.完成day-02:mybatis和spring整合-mapper代理开发;  
+	
+2020-01-16      
+	1.完成spring和mybatis整合;  
+		1.1原始dao开发（和spring整合后）  
+		1.2mapper代理开发  
+	2.完成逆向工程;  
+		mybaits需要程序员自己编写sql语句，mybatis官方提供逆向工程 可以针对单表自动生成mybatis执行所需要的代  	码（mapper.java,mapper.xml、po..）  
